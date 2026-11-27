@@ -10,7 +10,7 @@ Remote    : obsidian_crypt:
 - Python 3 (standard library only; no third-party pip packages required)
 - Git (configured with HTTPS/SSH access to Slice0fBreadByte/obsidian-vault-crypt)
 - Rclone (configured with encrypted remote `obsidian_crypt:`)
-- Secrets in LastPass:
+- Secrets in:
     * rclone.conf master/config password
     * crypt password and password2 salt
 
