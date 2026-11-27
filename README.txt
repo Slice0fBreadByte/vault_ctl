@@ -52,7 +52,7 @@ git -C "$HOME/obsidian-encrypted-stage" branch -a
 New-Item -ItemType Directory -Force -Path "$env:APPDATA\rclone"
 # Copy your rclone.conf into: %APPDATA%\rclone\rclone.conf
 
-# Test remote access (enter rclone.conf master password from LastPass)
+# Test remote access (enter rclone.conf master password from)
 rclone listremotes
 
 [Linux - Bash/Zsh]
@@ -60,7 +60,7 @@ rclone listremotes
 mkdir -p "$HOME/.config/rclone"
 # Copy your rclone.conf into: ~/.config/rclone/rclone.conf
 
-# Test remote access (enter rclone.conf master password from LastPass)
+# Test remote access (enter rclone.conf master password from)
 rclone listremotes
 
 Note on `obsidian_crypt:` target:
